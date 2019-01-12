@@ -1,0 +1,16 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<h2>My Heroes</h2>
+<ul class="heroes">
+  <div *ngFor="let hero of heroes['results']">
+  <li >
+        {{hero?.name}}
+      <button class="" 
+        (click)="add(hero)">+</button>
+    </li>
+    </div>
+  </ul>
+
+
+{{cadena}}
+
+<router-outlet></router-outlet>
