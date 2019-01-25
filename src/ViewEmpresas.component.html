@@ -1,0 +1,11 @@
+<li *ngFor="let empresa of service.empresasList">
+  Empresa: {{empresa.nombre}}
+  <p>Numero Empleados: {{empresa.numEmpleados}}</p>
+  <img src="{{empresa.urlLogo}}"></li>
+
+
+
+
+Nombre<input type='text'  #empresa>
+<button (click)=insertar(empresa.value)> Insertar </button>
+
